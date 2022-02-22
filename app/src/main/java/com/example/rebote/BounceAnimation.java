@@ -36,7 +36,9 @@ public class BounceAnimation extends Animation {
         listener = null;
     }
 
-
+    /**
+     * Inicia la animación
+     */
     public void animate() {
         //se calcula la duración de un rebote
         long singleBounceDuration = duration / numOfBounces / 4; //4 traslaciones
